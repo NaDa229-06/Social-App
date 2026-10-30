@@ -1,6 +1,5 @@
 import { useEffect, useRef, useState } from "react";
 import { FiImage, FiSend, FiX } from "react-icons/fi";
-import { IoIosArrowDown } from "react-icons/io";
 import { toast } from "react-toastify";
 import { createPost } from "../apis/posts.actions.api";
 import type { Post } from "../interfaces/post.interface";

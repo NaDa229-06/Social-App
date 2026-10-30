@@ -1,0 +1,11 @@
+@import "tailwindcss";
+@import "flowbite-react/plugin/tailwindcss";
+@source "../.flowbite-react/class-list.json";
+@plugin "flowbite/plugin";
+@source "../node_modules/flowbite";
+@source "../node_modules/flowbite-react/**/*.mjs";
+
+body{
+ font-family: "Cairo", sans-serif;
+ background-color:#F0F2F5;
+}
